@@ -58,7 +58,8 @@ class Hipay_enterprise_data extends Module
         $orderRequest = $params['OrderRequest'];
         $cart = $params['Cart'];
 
-        $orderRequest->some_data = "Some data";
+        // This adds the value "Some date" to the key "some_key", which will then be sent to HiPay's Order API with the full transaction data.
+        $orderRequest->some_key = "Some data";
     }
 
 }
