@@ -21,7 +21,7 @@ Download the package ZIP available in the folder "_package-ready-for-prestashop_
 
 ## License
 
-The **HiPay Enterprise module for PrestaShop 1.6.x - 1.7.x** is available under the **Apache 2.0 License**. Check out the [license file][project-license] for more information.
+The **HiPay Enterprise Data module for PrestaShop 1.6.x - 1.7.x** is available under the **Apache 2.0 License**. Check out the [license file][project-license] for more information.
 
 [doc-home]: https://developer.hipay.com/doc/hipay-enterprise-sdk-prestashop/
 
