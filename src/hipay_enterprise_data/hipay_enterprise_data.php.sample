@@ -58,8 +58,12 @@ class Hipay_enterprise_data extends Module
         $orderRequest = $params['OrderRequest'];
         $cart = $params['Cart'];
 
-        // This adds the value "Some date" to the key "some_key", which will then be sent to HiPay's Order API with the full transaction data.
-        $orderRequest->some_key = "Some data";
+        // This adds data to the order request which will then be sent to HiPay's Order API with the full transaction data.
+        // Pleases refer to https://support.hipay.com/hc/en-us/articles/360005968459-PSD2-and-Strong-Customer-Authentication-3-D-Secure-2-0-compliance-and-guidance for more information on DSP2 data
+        $orderRequest->previous_auth_info->transaction_reference = "Some data";
+        $orderRequest->merchant_risk_statement = "Some data";
+        $orderRequest->device_channel = "Some data";
+        $orderRequest->browser_info = "Some data";
     }
 
 }
