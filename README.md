@@ -17,7 +17,6 @@ Download the package ZIP available in the folder "_package-ready-for-prestashop_
 - [HiPay Support Center][hipay-help] — To get technical help from HiPay
 - [Issues][project-issues] — To report issues, submit pull requests and get involved (see [Apache 2.0 License][project-license])
 - [Change log][project-changelog] — To check the changes of the latest versions
-- [Contributing guidelines][project-contributing] — To contribute to our source code
 
 ## License
 
@@ -31,4 +30,3 @@ The **HiPay Enterprise Data module for PrestaShop 1.6.x - 1.7.x** is available u
 [project-issues]: https://github.com/hipay/hipay-enterprise-sdk-prestashop-data/issues
 [project-license]: LICENSE.md
 [project-changelog]: CHANGELOG.md
-[project-contributing]: CONTRIBUTING.md
